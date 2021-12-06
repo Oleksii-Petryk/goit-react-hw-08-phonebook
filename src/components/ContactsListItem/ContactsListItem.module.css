@@ -1,0 +1,43 @@
+.contactItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.text {
+  width: 150px;
+}
+
+.number {
+  width: 150px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 20px;
+  margin-top: 15px;
+  border-width: 0px;
+  border-radius: 25px;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  cursor: pointer;
+
+  color: #2c2c2c;
+  background-color: rgb(220, 221, 221);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:focus,
+.button:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: white;
+  background-color: rgb(23, 23, 212);
+}

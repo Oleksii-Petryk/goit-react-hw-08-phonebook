@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: baseline;
+}
+
+.name {
+  margin-right: 50px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 20px;
+  margin-top: 15px;
+  border-width: 0px;
+  border-radius: 25px;
+  padding: 5px;
+  font-family: Caveat Brush, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  cursor: pointer;
+
+  color: #2c2c2c;
+  background-color: rgb(220, 221, 221);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:focus,
+.button:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: white;
+  background-color: rgb(23, 23, 212);
+}

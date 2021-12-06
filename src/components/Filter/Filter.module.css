@@ -1,0 +1,21 @@
+.label {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.input {
+  margin-top: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  border-width: 0px;
+  border-radius: 25px;
+  background-color: rgb(220, 221, 221);
+}

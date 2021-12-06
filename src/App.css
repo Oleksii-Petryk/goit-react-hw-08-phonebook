@@ -1,0 +1,16 @@
+.App {
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  font-family: Caveat Brush, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+
+  background-color: rgb(154, 136, 233);
+  border: 3px solid rgb(75, 75, 75);
+  border-radius: 25px;
+}
